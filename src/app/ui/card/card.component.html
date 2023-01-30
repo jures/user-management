@@ -1,0 +1,27 @@
+<div class="card" *ngIf="user">
+  <div class="card-body" *ngIf="user.firstname || user.lastname">
+    <h5 class="card-title">{{ user.firstname }} {{ user.lastname }}</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngIf="user.email">
+      Email: <a [href]="'mailto:' + user.email">{{ user.email }}</a>
+    </li>
+    <li class="list-group-item" *ngIf="user.age">Age: {{ user.age }}</li>
+  </ul>
+  <div class="card-body">
+    <button
+      type="button"
+      class="card-link btn btn-secondary"
+      (click)="onEdit(user)"
+    >
+      Edit User
+    </button>
+    <button
+      type="button"
+      class="card-link btn btn-danger"
+      (click)="onDelete(user.id)"
+    >
+      Delete User
+    </button>
+  </div>
+</div>

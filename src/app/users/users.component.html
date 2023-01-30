@@ -1,0 +1,11 @@
+<div class="spinner-border" role="status" *ngIf="isLoading">
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+<router-outlet></router-outlet>
+
+<app-table
+  [tableHead]="tableHeadArray"
+  [users]="users"
+  *ngIf="!isLoading"
+></app-table>
