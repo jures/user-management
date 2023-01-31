@@ -1,13 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { map, Subject } from 'rxjs';
+import { Subject } from 'rxjs';
 import { User } from './user.model';
 
 const API_PATH = 'http://localhost:3000/users';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
-  // users: User[] = [];
   deleteUserClick = new Subject<number>();
 
   constructor(private http: HttpClient) {}
