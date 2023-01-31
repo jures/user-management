@@ -1,151 +1,11 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstname": "Kimmi",
-      "lastname": "Anthoin",
-      "email": "kanthoin0@free.fr",
-      "age": 25
-    },
-    {
-      "id": 2,
-      "firstname": "Randal",
-      "lastname": "Etock",
-      "email": "retock1@vkontakte.ru",
-      "age": 29
-    },
-    {
-      "id": 3,
-      "firstname": "Teirtza",
-      "lastname": "Ingarfill",
-      "email": "tingarfill2@bigcartel.com",
-      "age": 15
-    },
-    {
-      "id": 4,
-      "firstname": "Margaux",
-      "lastname": "Marlin",
-      "email": "mmarlin3@typepad.com",
-      "age": 30
-    },
-    {
-      "id": 5,
-      "firstname": "Susi",
-      "lastname": "Brotherwood",
-      "email": "sbrotherwood4@tuttocitta.it",
-      "age": 23
-    },
-    {
-      "id": 6,
-      "firstname": "Reggy",
-      "lastname": "Piatkowski",
-      "email": "rpiatkowski5@webs.com",
-      "age": 60
-    },
-    {
       "id": 7,
       "firstname": "Feodor",
       "lastname": "Matschke",
       "email": "fmatschke6@drupal.org",
       "age": 82
-    },
-    {
-      "id": 8,
-      "firstname": "Dody",
-      "lastname": "Czajkowski",
-      "email": "dczajkowski7@wp.com",
-      "age": 6
-    },
-    {
-      "id": 9,
-      "firstname": "Jessamine",
-      "lastname": "Tuny",
-      "email": "jtuny8@tinyurl.com",
-      "age": 25
-    },
-    {
-      "id": 10,
-      "firstname": "Gus",
-      "lastname": "Betancourt",
-      "email": "gbetancourt9@businesswire.com",
-      "age": 3
-    },
-    {
-      "id": 11,
-      "firstname": "Barty",
-      "lastname": "Coppock.",
-      "email": "bcoppocka@berkeley.edu",
-      "age": 76
-    },
-    {
-      "id": 12,
-      "firstname": "Thor",
-      "lastname": "Grassett",
-      "email": "tgrassettb@cargocollective.com",
-      "age": 75
-    },
-    {
-      "id": 13,
-      "firstname": "Lindsy",
-      "lastname": "Swarbrick",
-      "email": "lswarbrickc@ovh.net",
-      "age": 10
-    },
-    {
-      "id": 14,
-      "firstname": "Lily",
-      "lastname": "Mattedi",
-      "email": "lmattedid@ovh.net",
-      "age": 88
-    },
-    {
-      "id": 15,
-      "firstname": "Tyrone",
-      "lastname": "Afonso",
-      "email": "tafonsoe@yahoo.co.jp",
-      "age": 71
-    },
-    {
-      "id": 16,
-      "firstname": "Susy",
-      "lastname": "Hurran",
-      "email": "shurranf@spotify.com",
-      "age": 83
-    },
-    {
-      "id": 17,
-      "firstname": "Silvana",
-      "lastname": "Hardes",
-      "email": "shardesg@columbia.edu",
-      "age": 50
-    },
-    {
-      "id": 18,
-      "firstname": "Cicely",
-      "lastname": "Devas",
-      "email": "cdevash@tripod.com",
-      "age": 3
-    },
-    {
-      "id": 19,
-      "firstname": "Judye",
-      "lastname": "Joriot",
-      "email": "jjorioti@trellian.com",
-      "age": 5
-    },
-    {
-      "id": 20,
-      "firstname": "Janessa",
-      "lastname": "Summerell",
-      "email": "jsummerellj@uol.com.br",
-      "age": 80
-    },
-    {
-      "id": 21,
-      "firstname": "Marcella",
-      "lastname": "Rubbert",
-      "email": "mrubbertk@nymag.com",
-      "age": 9
     },
     {
       "id": 22,
@@ -349,6 +209,13 @@
       "lastname": "Meiklam",
       "email": "lmeiklam1d@sogou.com",
       "age": 76
+    },
+    {
+      "firstname": "Jure",
+      "lastname": "Štern",
+      "email": "jurestern@gmail.com",
+      "age": 50,
+      "id": 51
     }
   ]
 }

@@ -1,7 +1,6 @@
 <table class="table table-hover table-responsive">
   <thead *ngIf="tableHead.length">
     <tr>
-      <td scope="col">#</td>
       <td scope="col" *ngFor="let head of tableHead">
         {{ head.name }}
       </td>
@@ -10,7 +9,6 @@
   </thead>
   <tbody>
     <tr *ngFor="let user of users; let i = index" (click)="rowClick(user.id)">
-      <td>{{ i + 1 }}</td>
       <td *ngFor="let head of tableHead">{{ user[head.field] }}</td>
       <td>
         <div class="d-flex gap-2">
